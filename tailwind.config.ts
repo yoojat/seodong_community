@@ -8,12 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        scDream: ["var(--font-sc-dream)"],
+      },
+      margin: {
+        tomato: "120px",
+      },
+      borderRadius: {
+        "sexy-name": "11.11px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
 export default config;
