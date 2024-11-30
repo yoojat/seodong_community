@@ -7,8 +7,32 @@
     @apply font-scDream;
     @apply text-base;
   }
-  a {
-    @apply text-orange-500;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* src/styles.css 등 Tailwind CSS를 사용하는 CSS 파일 */
+  .second-and-later > :nth-child(n + 2) {
+    @apply border-l-0 /* 원하는 Tailwind 유틸리티 클래스 */;
   }
 }
 @layer utilities {
@@ -19,5 +43,29 @@
 @layer components {
   .btn {
     @apply w-full bg-black h-10 text-white rounded-sexy-name mt-tomato;
+  }
+
+  .primary-btn {
+    @apply w-full bg-orange-500 text-white  font-medium  rounded-md text-center hover:bg-orange-400 transition-colors;
+  }
+
+  .ritual-category-1 > .ritual-category-2 {
+    @apply flex;
+  }
+  .ritual-category-2 > .ritual-category-3 {
+    @apply bg-orange-400;
+  }
+  .ritual-category-2 > .category {
+    @apply flex gap-2;
+  }
+  .category > div {
+    @apply border border-black p-2 text-xl hover:cursor-pointer w-40 min-w-40 text-center;
+  }
+
+  .category-title {
+    @apply min-w-32 flex items-center font-bold;
+  }
+  .category-title > div {
+    @apply text-xl;
   }
 }
