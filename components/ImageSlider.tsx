@@ -3,8 +3,8 @@ import { useState } from "react";
 // import { useEffect } from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import image1 from "@/public/sample/1.png";
-import image2 from "@/public/sample/2.png";
+import image1 from "@/public/seodong/1.jpg";
+import image2 from "@/public/seodong/2.jpg";
 
 // Interface for image data
 interface ImageData {

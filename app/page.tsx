@@ -40,12 +40,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pb-10">
-          <Image
-            width={100}
-            height={100}
-            alt="start"
-            src="https://image.nicetomeetme.kr/53231/main_intro_1.svg"
-          />
+          <Image width={100} height={100} alt="start" src="/seodng/2.jpg" />
         </div>
       </div>
 
@@ -75,7 +70,7 @@ export default function Home() {
             width={400}
             height={400}
             alt="main_intro"
-            src="https://image.nicetomeetme.kr/53232/main_intro_2.svg"
+            src="/seodong/3.jpg"
           />
         </div>
       </div>
@@ -101,7 +96,7 @@ export default function Home() {
               // height={300}
               fill
               alt="5min ritual time"
-              src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
+              src="/seodong/4.jpg"
             />
           </div>
         </div>
@@ -134,7 +129,7 @@ export default function Home() {
               width={300}
               height={300}
               className="min-w-32 h-full object-contain align-top"
-              src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
+              src="/seodnog/5.jpg"
             />
           </div>
         </div>
@@ -344,7 +339,7 @@ export default function Home() {
                 width={300}
                 height={300}
                 className="min-w-lg"
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/6.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -390,7 +385,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/7.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -409,7 +404,7 @@ export default function Home() {
                 width={300}
                 height={300}
                 className="min-w-lg"
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/8.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -455,7 +450,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/9.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -474,7 +469,7 @@ export default function Home() {
                 width={300}
                 height={300}
                 className="min-w-lg"
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/10.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -520,7 +515,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/11.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -545,7 +540,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/12.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -566,7 +561,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/1.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -587,7 +582,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/2.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -616,7 +611,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/3.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -637,7 +632,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/4.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -658,7 +653,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+                src="/seodong/5.jpg"
               />
             </div>
             <div className="p-4 bg-orange-100">
@@ -686,7 +681,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53237/b1.jpg"
+                src="/seodong/6.jpg"
               />
             </div>
             <div className="p-4 bg-orange-500">
@@ -704,7 +699,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/53237/b1.jpg"
+                src="/seodong/7.jpg"
               />
             </div>
             <div className="p-4 bg-orange-500">

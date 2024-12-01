@@ -150,7 +150,7 @@ export default function RootLayout({
                   alt="로그인"
                   width={25}
                   height={10}
-                  src="https://www.nicetomeetme.kr/meetme-illust/default_profile.png?w=100&q=75"
+                  src="/seodong/1.jpg"
                 />
                 <span className="pl-2 ">로그인</span>
               </Link>
