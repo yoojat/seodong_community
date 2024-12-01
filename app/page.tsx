@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col">
               <div>
-                밑미가 나를 만나는 순간을
+                서동밋가 나를 만나는 순간을
                 <br />
                 많이 만들어줄게요
               </div>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="flex flex-col justify-between pb-5">
           <div>
             <div className="text-2xl font-bold pb-10">
-              밑미레터로 시작하세요!
+              서동밋레터로 시작하세요!
             </div>
             <div className="flex flex-col">
               <div>
@@ -76,7 +76,9 @@ export default function Home() {
       </div>
 
       <div className="px-5 pt-10">
-        <div className="text-xl font-bold pb-5">매주 달라지는 밑미 콘텐츠</div>
+        <div className="text-xl font-bold pb-5">
+          매주 달라지는 서동밋 콘텐츠
+        </div>
         <div className="flex px-2 border-2 border-t-2 border-gray-950 pt-10 bg-blue-50 justify-between">
           <div className="flex flex-col">
             <div className="flex flex-col justify-between pb-5">
@@ -118,8 +120,8 @@ export default function Home() {
               맘대로 안무를 만들어 봐도 좋아요. 그게 무엇이든 결과가 아닌 과정
               그 자체를 즐기며 시도해 보세요. 상상력만 발휘할 수 있다면 놀이는
               어디에서든 시작될 수 있으니까요. 실천하는 모습을 모두가 볼 수
-              있도록 SNS에 해시태그 #밑미타임과 함께 올려주세요. 오늘
-              #밑미타임에 대한 생각과 경험을 이 글의 댓글로 함께 나눠주셔도
+              있도록 SNS에 해시태그 #서동밋타임과 함께 올려주세요. 오늘
+              #서동밋타임에 대한 생각과 경험을 이 글의 댓글로 함께 나눠주셔도
               좋아요!
             </div>
           </div>
@@ -151,8 +153,8 @@ export default function Home() {
               맘대로 안무를 만들어 봐도 좋아요. 그게 무엇이든 결과가 아닌 과정
               그 자체를 즐기며 시도해 보세요. 상상력만 발휘할 수 있다면 놀이는
               어디에서든 시작될 수 있으니까요. 실천하는 모습을 모두가 볼 수
-              있도록 SNS에 해시태그 #밑미타임과 함께 올려주세요. 오늘
-              #밑미타임에 대한 생각과 경험을 이 글의 댓글로 함께 나눠주셔도
+              있도록 SNS에 해시태그 #서동밋타임과 함께 올려주세요. 오늘
+              #서동밋타임에 대한 생각과 경험을 이 글의 댓글로 함께 나눠주셔도
               좋아요!
             </div>
           </div>
@@ -169,7 +171,7 @@ export default function Home() {
       </div>
       <div className="px-5 pt-5">
         <div className="text-2xl font-bold pb-5 mt-14">
-          밑미에서 무엇을 찾으시나요?
+          서동밋에서 무엇을 찾으시나요?
         </div>
         <div className="flex flex-col border-2 border-black w-full">
           <Link
@@ -299,7 +301,7 @@ export default function Home() {
           >
             <div>
               <div className="bg-yellow-400 p-1  w-28 text-center border-2 border-black  ">
-                밑미 맛보기
+                서동밋 맛보기
               </div>
             </div>
             <div className="font-bold text-lg">
@@ -364,7 +366,7 @@ export default function Home() {
           >
             <div>
               <div className="bg-yellow-400 p-1  w-28 text-center border-2 border-black  ">
-                밑미 맛보기
+                서동밋 맛보기
               </div>
             </div>
             <div className="font-bold text-lg">
@@ -429,7 +431,7 @@ export default function Home() {
           >
             <div>
               <div className="bg-yellow-400 p-1  w-28 text-center border-2 border-black  ">
-                밑미 맛보기
+                서동밋 맛보기
               </div>
             </div>
             <div className="font-bold text-lg">
@@ -494,7 +496,7 @@ export default function Home() {
           >
             <div>
               <div className="bg-yellow-400 p-1  w-28 text-center border-2 border-black  ">
-                밑미 맛보기
+                서동밋 맛보기
               </div>
             </div>
             <div className="font-bold text-lg">
@@ -531,7 +533,7 @@ export default function Home() {
       </div>
       <div className="px-5 pt-5 mb-5">
         <div className="text-2xl font-bold pb-5 mt-14">
-          밑미가 애정담아 만든 키트
+          서동밋가 애정담아 만든 키트
         </div>
         <div className="flex gap-5 pl-3 overflow-scroll w-full max-w-full *:min-w-96 ">
           <Link href="#" className="flex flex-col border-black border-2">
@@ -602,7 +604,7 @@ export default function Home() {
 
       <div className="px-5 pt-5 mb-5">
         <div className="text-2xl font-bold pb-5 mt-14">
-          밑미가 애정담아 만든 키트
+          서동밋가 애정담아 만든 키트
         </div>
         <div className="flex gap-5 pl-3 overflow-scroll w-full max-w-full *:min-w-96 ">
           <Link href="#" className="flex flex-col border-black border-2">
@@ -672,7 +674,7 @@ export default function Home() {
       </div>
       <div className="px-5 pt-5 mb-5">
         <div className="text-2xl font-bold pb-5 mt-14">
-          밑미는 브랜드, 그리고 조직과도 협업해요!
+          서동밋는 브랜드, 그리고 조직과도 협업해요!
         </div>
         <div className="flex flex-col md:flex-row gap-5 md:gap-0 md: overflow-scroll w-full max-w-full *:min-w-96 second-and-later">
           <Link href="#" className="flex flex-col border-black border-2">

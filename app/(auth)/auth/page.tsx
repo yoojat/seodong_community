@@ -8,7 +8,7 @@ export default function Home() {
           나를 찾기 위해 오셨군요. 그 시작을 응원해요
         </div>
         <div className="text-sm text-orange-400 font-semibold">
-          밑미에서 나를 만나는 시간을 가져보세요
+          서동밋에서 나를 만나는 시간을 가져보세요
         </div>
         <Link
           href="#"

@@ -154,7 +154,7 @@ export default function RootLayout({
               <Link href="#">공지사항</Link>
               <Link href="#">자주 묻는 질문</Link>
               <Link href="#">문의하기</Link>
-              <Link href="#">밑미레터 구독하기</Link>
+              <Link href="#">서동밋레터 구독하기</Link>
               <Link href="#">이용약관 | 개인정보처리방침</Link>
             </div>
             <div className="flex *:text-2xl gap-3 mb-5">

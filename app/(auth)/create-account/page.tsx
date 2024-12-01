@@ -93,7 +93,7 @@ export default function CreateAccount() {
         <div>
           <div className="flex flex-col gap-2 *:font-medium">
             <h1 className="text-lg *:text-lg">
-              밑미 커뮤니티에서
+              서동밋 커뮤니티에서
               <br /> 나는
               <span className="font-bold"> 어떤 닉네임</span>
               으로 불리고 싶은가요?
