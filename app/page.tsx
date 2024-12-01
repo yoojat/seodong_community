@@ -4,6 +4,7 @@ import Link from "next/link";
 import "@/lib/db";
 import ImageSlider from "@/components/ImageSlider";
 import { ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   // const settings = {
@@ -39,7 +40,12 @@ export default function Home() {
           </div>
         </div>
         <div className="pb-10">
-          <img src="https://image.nicetomeetme.kr/53231/main_intro_1.svg" />
+          <Image
+            width={100}
+            height={100}
+            alt="start"
+            src="https://image.nicetomeetme.kr/53231/main_intro_1.svg"
+          />
         </div>
       </div>
 
@@ -63,26 +69,40 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div>
-          <img src="https://image.nicetomeetme.kr/53232/main_intro_2.svg" />
+        <div className="relative">
+          <Image
+            // fill
+            width={400}
+            height={400}
+            alt="main_intro"
+            src="https://image.nicetomeetme.kr/53232/main_intro_2.svg"
+          />
         </div>
       </div>
 
       <div className="px-5 pt-10">
         <div className="text-xl font-bold pb-5">매주 달라지는 밑미 콘텐츠</div>
-        <div className="flex flex-col px-8 border-2 border-t-2 border-gray-950 pt-10 bg-orange-50">
-          <div className="flex flex-col justify-between pb-5">
-            <div>
-              <div className="text-2xl font-bold pb-10">
-                주는 것과 받는 것 뭘 더 좋아하나요?
-              </div>
-              <div className="flex flex-col">
-                <div>조건과 기대 없이 줄 때 경험할 수 있는 세상에 대하여</div>
+        <div className="flex px-2 border-2 border-t-2 border-gray-950 pt-10 bg-orange-50 justify-between">
+          <div className="flex flex-col">
+            <div className="flex flex-col justify-between pb-5">
+              <div>
+                <div className="text-2xl font-bold pb-10">
+                  주는 것과 받는 것 뭘 더 좋아하나요?
+                </div>
+                <div className="flex flex-col">
+                  <div>조건과 기대 없이 줄 때 경험할 수 있는 세상에 대하여</div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="ml-auto">
-            <img src="https://image.nicetomeetme.kr/55428/%E1%84%86%E1%85%B5%E1%87%80%E1%84%86%E1%85%B5%E1%84%85%E1%85%A6%E1%84%90%E1%85%A5_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB_221.png" />
+          <div className="relative w-96">
+            <Image
+              // width={300}
+              // height={300}
+              fill
+              alt="5min ritual time"
+              src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
+            />
           </div>
         </div>
       </div>
@@ -109,7 +129,10 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img
+            <Image
+              alt="sample"
+              width={300}
+              height={300}
               className="min-w-32 h-full object-contain align-top"
               src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
             />
@@ -139,7 +162,10 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img
+            <Image
+              alt="sample"
+              width={300}
+              height={300}
               className="min-w-32 h-full object-contain align-top"
               src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
             />
@@ -213,7 +239,12 @@ export default function Home() {
         </div>
         <div className="flex flex-col border-2 border-black w-full">
           <div className="relative">
-            <img src="https://www.nicetomeetme.kr/images/main/ritual_town.jpg" />
+            <Image
+              alt="sample"
+              width={300}
+              height={300}
+              src="https://www.nicetomeetme.kr/images/main/ritual_town.jpg"
+            />
             <Link
               className="p-4 bg-orange-500 flex w-52 border-2 border-black font-bold  absolute left-1/2 -translate-x-1/2 bottom-3"
               href="#"
@@ -290,7 +321,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="font-bold pb-1">
@@ -303,7 +339,10 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
                 className="min-w-lg"
                 src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
               />
@@ -347,7 +386,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="font-bold pb-1">
@@ -360,7 +404,10 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
                 className="min-w-lg"
                 src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
               />
@@ -404,7 +451,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="font-bold pb-1">
@@ -417,7 +469,10 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
                 className="min-w-lg"
                 src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
               />
@@ -461,7 +516,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-l-2">
             <div>
-              <img src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="font-bold pb-1">
@@ -481,7 +541,12 @@ export default function Home() {
         <div className="flex gap-5 pl-3 overflow-scroll w-full max-w-full *:min-w-96 ">
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -497,7 +562,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -513,7 +583,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -537,7 +612,12 @@ export default function Home() {
         <div className="flex gap-5 pl-3 overflow-scroll w-full max-w-full *:min-w-96 ">
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -553,7 +633,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -569,7 +654,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53239/2024-08-02-15959.png?w=1920&q=75"
+              />
             </div>
             <div className="p-4 bg-orange-100">
               <div className="text-sm pb-10">
@@ -592,7 +682,12 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-5 md:gap-0 md: overflow-scroll w-full max-w-full *:min-w-96 second-and-later">
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53237/b1.jpg" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53237/b1.jpg"
+              />
             </div>
             <div className="p-4 bg-orange-500">
               <div className="font-bold pb-1 flex justify-center">
@@ -605,7 +700,12 @@ export default function Home() {
           </Link>
           <Link href="#" className="flex flex-col border-black border-2">
             <div className="border-b-2 border-black">
-              <img src="https://image.nicetomeetme.kr/53237/b1.jpg" />
+              <Image
+                alt="sample"
+                width={300}
+                height={300}
+                src="https://image.nicetomeetme.kr/53237/b1.jpg"
+              />
             </div>
             <div className="p-4 bg-orange-500">
               <div className="font-bold pb-1 flex justify-center">

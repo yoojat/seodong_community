@@ -10,6 +10,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import TabBar from "@/components/tab-bar";
+import Image from "next/image";
 
 // const scDream = localFont({
 //   src: "./fonts/SCDream1.otf",
@@ -146,7 +147,12 @@ export default function RootLayout({
                 className="text-xs !w-20 hidden md:flex justify-center "
                 href="/login"
               >
-                <img src="https://www.nicetomeetme.kr/meetme-illust/default_profile.png?w=100&q=75" />
+                <Image
+                  alt="로그인"
+                  width={25}
+                  height={10}
+                  src="https://www.nicetomeetme.kr/meetme-illust/default_profile.png?w=100&q=75"
+                />
                 <span className="pl-2 ">로그인</span>
               </Link>
             </div>
