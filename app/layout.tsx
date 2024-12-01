@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import {
-  BellAlertIcon,
   BellIcon,
   BookmarkIcon,
   MagnifyingGlassIcon,

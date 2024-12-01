@@ -21,8 +21,15 @@ export default function LogIn() {
         <h2 className="text-xl">Log in with email and password.</h2>
       </div>
       <form className="flex flex-col gap-3">
-        <FormInput type="email" placeholder="Email" required errors={[]} />
         <FormInput
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          errors={[]}
+        />
+        <FormInput
+          name="password"
           type="password"
           placeholder="Password"
           required
@@ -30,7 +37,7 @@ export default function LogIn() {
         />
       </form>
       <span onClick={onClick}>
-        <FormButton loading={false} text="Log in" />
+        <FormButton text="Log in" />
       </span>
       <SocialLogin />
     </div>

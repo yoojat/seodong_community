@@ -1,10 +1,10 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 
-export default () => {
+export default function Slide() {
   return (
     <div className="swiper">
       <div className="swiper-wrapper">
@@ -21,4 +21,4 @@ export default () => {
       <div className="swiper-scrollbar"></div>
     </div>
   );
-};
+}

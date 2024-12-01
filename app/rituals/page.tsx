@@ -1,6 +1,3 @@
-import { ChevronRight } from "lucide-react";
-import Link from "next/link";
-import ListProduct from "@/components/list-ritual";
 import db from "@/lib/db";
 import ListRitual from "@/components/list-ritual";
 

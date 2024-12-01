@@ -7,9 +7,10 @@ import { PASSWORD_MIN_LENGTH } from "@/lib/constants";
 import { useActionState } from "react";
 export default function CreateAccount() {
   const [state, dispatch] = useActionState(createAccount, null);
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // 기본 동작 막기
-    const formData = new FormData(e.target); // 폼 데이터를 수집
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form); // 폼 데이터를 수집
 
     // 서버 액션 실행
     dispatch(formData);

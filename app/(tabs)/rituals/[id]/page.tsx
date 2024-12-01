@@ -1,53 +1,40 @@
-// async function getProduct() {
-//   await new Promise((resolve) => setTimeout(resolve, 1000));
-// }
-
 import db from "@/lib/db";
-import getSession from "@/lib/session";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
-// async function getIsOwner(userId: number) {
-//   const session = await getSession();
-//   if (session.id) {
-//     return session.id === userId;
-//   }
-//   return false;
-// }
+interface RitualParams {
+  id: string;
+}
 
 async function getRitual(id: number) {
   const ritual = await db.ritual.findUnique({
-    where: {
-      id,
-    },
+    where: { id },
     include: {
-      user: {
-        select: {
-          username: true,
-        },
-      },
+      user: { select: { username: true } },
     },
   });
   return ritual;
 }
 
-export default async function RitualDetail({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const id = Number(params.id);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default async function RitualDetail({ params }: { params: any }) {
+  // Validate params.id
+  if (!params?.id || typeof params.id !== "string") {
+    return notFound();
+  }
+
+  const { id: rid } = params as RitualParams;
+  const id = Number(rid);
+
   if (isNaN(id)) {
     return notFound();
   }
 
+  // Fetch ritual data
   const ritual = await getRitual(id);
   if (!ritual) {
     return notFound();
   }
-
-  // const isOwner = await getIsOwner(ritual.userId);
 
   return (
     <div>

@@ -1,10 +1,10 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+// import { useEffect } from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 import image1 from "@/public/sample/1.png";
 import image2 from "@/public/sample/2.png";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Interface for image data
 interface ImageData {
@@ -23,10 +23,10 @@ const images: ImageData[] = [
 
 export default function ImageSlider(): JSX.Element {
   // State to keep track of the current image index
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [currentIndex] = useState<number>(0);
 
   // State to determine if the image is being hovered over
-  const [isHovered, setIsHovered] = useState<boolean>(false);
+  // const [isHovered, setIsHovered] = useState<boolean>(false);
 
   // // Function to show the previous slide
   // const prevSlide = (): void => {
@@ -36,24 +36,24 @@ export default function ImageSlider(): JSX.Element {
   // };
 
   // Function to show the next slide
-  const nextSlide = (): void => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
+  // const nextSlide = (): void => {
+  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  // };
 
   // useEffect hook to handle automatic slide transition
-  useEffect(() => {
-    // Start interval for automatic slide change if not hovered
-    if (!isHovered) {
-      const interval = setInterval(() => {
-        nextSlide();
-      }, 3000);
+  // useEffect(() => {
+  //   // Start interval for automatic slide change if not hovered
+  //   if (!isHovered) {
+  //     const interval = setInterval(() => {
+  //       nextSlide();
+  //     }, 3000);
 
-      // Cleanup the interval on component unmount
-      return () => {
-        clearInterval(interval);
-      };
-    }
-  }, [isHovered]);
+  //     // Cleanup the interval on component unmount
+  //     return () => {
+  //       clearInterval(interval);
+  //     };
+  //   }
+  // }, [isHovered]);
 
   // Handle mouse over event
   // const handleMouseOver = (): void => {

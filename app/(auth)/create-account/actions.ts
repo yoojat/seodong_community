@@ -24,13 +24,13 @@ import getSession from "@/lib/session";
 
 const checkUsername = (username: string) => !username.includes("potato");
 
-const checkPasswords = ({
-  password,
-  confirm_password,
-}: {
-  password: string;
-  confirm_password: string;
-}) => password === confirm_password;
+// const checkPasswords = ({
+//   password,
+//   confirm_password,
+// }: {
+//   password: string;
+//   confirm_password: string;
+// }) => password === confirm_password;
 
 // const checkUniqueEmail = async (email: string) => {
 //   const user = await db.user.findUnique({
@@ -63,21 +63,23 @@ const formSchema = z
 
     email: z.string().email().toLowerCase(),
     // .refine(checkUniqueEmail, "이미 등록된 이메일입니다."),
-    password: z.string().min(PASSWORD_MIN_LENGTH),
-    // .regex(PASSWORD_REGEX, PASSWORD_REGEX_ERROR),
+    password: z
+      .string()
+      .min(PASSWORD_MIN_LENGTH)
+      .regex(PASSWORD_REGEX, PASSWORD_REGEX_ERROR),
     confirm_password: z.string().min(PASSWORD_MIN_LENGTH),
     nickname: z.string(),
     phone: z.string(),
   })
-  // .superRefine(({ password, confirm_password }, ctx) => {
-  //   if (password !== confirm_password) {
-  //     ctx.addIssue({
-  //       code: "custom",
-  //       message: "Two passwords should be equal",
-  //       path: ["confirm_password"],
-  //     });
-  //   }
-  // })
+  .superRefine(({ password, confirm_password }, ctx) => {
+    if (password !== confirm_password) {
+      ctx.addIssue({
+        code: "custom",
+        message: "Two passwords should be equal",
+        path: ["confirm_password"],
+      });
+    }
+  })
   .superRefine(async ({ username }, ctx) => {
     const user = await db.user.findUnique({
       where: {
@@ -124,7 +126,7 @@ const formSchema = z
     }
   });
 
-export async function createAccount(prevState: any, formData: FormData) {
+export async function createAccount(prevState: unknown, formData: FormData) {
   const data = {
     username: formData.get("username"),
     email: formData.get("email"),
