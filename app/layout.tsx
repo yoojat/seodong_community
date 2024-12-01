@@ -108,7 +108,7 @@ export default function RootLayout({
               </Link>
               <div className="hidden lg:flex">
                 <div className="flex gap-5 pr-5">
-                  <Link href="#">가이드</Link>
+                  {/* <Link href="#">가이드</Link> */}
                   <Link href="/rituals">프로그램</Link>
                   {/* <Link href="#">커뮤니티</Link> */}
                   {/* <Link href="#">마이리츄얼</Link> */}
