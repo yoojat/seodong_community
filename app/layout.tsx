@@ -9,7 +9,6 @@ import {
   ShoppingBagIcon,
 } from "@heroicons/react/24/solid";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import TabBar from "@/components/tab-bar";
 import Image from "next/image";
 
 // const scDream = localFont({
@@ -185,7 +184,6 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
-        <TabBar />
       </body>
     </html>
   );
