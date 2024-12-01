@@ -131,7 +131,7 @@ export default function Home() {
               width={300}
               height={300}
               className="min-w-32 h-full object-contain align-top"
-              src="/seodnog/5.jpg"
+              src="/seodong/5.jpg"
             />
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function Home() {
               width={300}
               height={300}
               className="min-w-32 h-full object-contain align-top"
-              src="https://image.nicetomeetme.kr/55620/31301_2474116_1730282326324741845.png"
+              src="/seodong/14.jpg"
             />
           </div>
         </div>
@@ -240,7 +240,7 @@ export default function Home() {
               alt="sample"
               width={300}
               height={300}
-              src="https://www.nicetomeetme.kr/images/main/ritual_town.jpg"
+              src="/seodong/15.jpg"
             />
             <Link
               className="p-4 bg-blue-500 flex w-52 border-2 border-black font-bold  absolute left-1/2 -translate-x-1/2 bottom-3"
@@ -322,7 +322,7 @@ export default function Home() {
                 alt="sample"
                 width={300}
                 height={300}
-                src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
+                src="/seodong/16.jpg"
               />
             </div>
             <div className="p-4 bg-blue-100">

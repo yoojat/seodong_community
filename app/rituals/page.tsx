@@ -26,7 +26,7 @@ export default async function Ritual() {
   return (
     <div className="mx-auto">
       <div className="mx-auto px-7 mt-5  flex flex-col gap-2 ritual-category-1">
-        <div className="ritual-category-2">
+        {/* <div className="ritual-category-2">
           <div className="category-title">
             <div>카테고리별</div>
           </div>
@@ -40,8 +40,8 @@ export default async function Ritual() {
             <div>마음방해꾼 타파</div>
             <div>연말 회고</div>
           </div>
-        </div>
-        <div className="ritual-category-2">
+        </div> */}
+        {/* <div className="ritual-category-2">
           <div className="category-title">
             <div>기간별</div>
           </div>
@@ -50,7 +50,7 @@ export default async function Ritual() {
             <div>3주</div>
             <div>3개월</div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="px-5 pt-5 mb-5  max-w-screen-3xl">
         <div className="flex justify-center gap-5 pl-3 overflow-scroll w-full max-w-full *:min-w-96 flex-wrap">

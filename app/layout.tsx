@@ -110,16 +110,16 @@ export default function RootLayout({
                 <div className="flex gap-5 pr-5">
                   <Link href="#">가이드</Link>
                   <Link href="/rituals">프로그램</Link>
-                  <Link href="#">커뮤니티</Link>
-                  <Link href="#">마이리츄얼</Link>
+                  {/* <Link href="#">커뮤니티</Link> */}
+                  {/* <Link href="#">마이리츄얼</Link> */}
                 </div>
                 <div className="flex border-l-2 border-black pl-5">
-                  <Link href="#">비지니스 문의</Link>
+                  {/* <Link href="#">비지니스 문의</Link> */}
                 </div>
               </div>
             </div>
             <div className="flex gap-4 text-black [&>a>*]:fill-black [&>*]:size-6 [&>a:nth-child(odd)>*]:fill-transparent  [&>a>*]:stroke-2 [&>a>*]:stroke-black mr-5">
-              <Link href="#">
+              {/* <Link href="#">
                 <BookmarkIcon />
               </Link>
               <Link href="#">
@@ -130,7 +130,7 @@ export default function RootLayout({
               </Link>
               <Link href="#">
                 <ShoppingBagIcon />
-              </Link>
+              </Link> */}
               <Link
                 className="text-xs !w-20 hidden md:flex justify-center "
                 href="/login"
