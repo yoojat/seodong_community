@@ -31,7 +31,7 @@ export default async function Ritual() {
             <div>카테고리별</div>
           </div>
           <div className="category  overflow-scroll w-full">
-            <div className="bg-orange-500 font-bold">전체보기</div>
+            <div className="bg-blue-500 font-bold">전체보기</div>
             <div>마음기록</div>
             <div>일상기록</div>
             <div>책·글쓰기</div>
@@ -46,7 +46,7 @@ export default async function Ritual() {
             <div>기간별</div>
           </div>
           <div className="category overflow-scroll w-full">
-            <div className="bg-orange-500 font-bold">전체보기</div>
+            <div className="bg-blue-500 font-bold">전체보기</div>
             <div>3주</div>
             <div>3개월</div>
           </div>

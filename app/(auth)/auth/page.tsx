@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-orange-50 ">
+    <div className="bg-blue-50 ">
       <div className="h-screen flex justify-center items-center flex-col max-w-screen-sm mx-auto gap-2">
         <div className="text-lg font-bold">
           나를 찾기 위해 오셨군요. 그 시작을 응원해요

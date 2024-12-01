@@ -41,7 +41,7 @@ export default function ListRitual({
           <Image fill src={photo} alt={title} />
         </div>
       </div>
-      <div className="p-4 bg-orange-100">
+      <div className="p-4 bg-blue-100">
         <div className="text-sm pb-10">{title}</div>
         <div className="font-bold pb-1 flex justify-between">
           <div>{subtitle}</div>

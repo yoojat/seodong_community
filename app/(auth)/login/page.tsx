@@ -6,6 +6,7 @@ import FormInput from "@/components/input";
 import { logIn } from "./actions";
 import { PASSWORD_MIN_LENGTH } from "@/lib/constants";
 import { useActionState } from "react";
+import Link from "next/link";
 
 export default function LogIn() {
   const [state, dispatch] = useActionState(logIn, null);
@@ -33,6 +34,7 @@ export default function LogIn() {
         />
         <FormButton text="Log in" />
       </form>
+      <Link href="/create-account">회원 가입하기</Link>
       {/* <SocialLogin /> */}
     </div>
   );

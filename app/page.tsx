@@ -77,7 +77,7 @@ export default function Home() {
 
       <div className="px-5 pt-10">
         <div className="text-xl font-bold pb-5">매주 달라지는 밑미 콘텐츠</div>
-        <div className="flex px-2 border-2 border-t-2 border-gray-950 pt-10 bg-orange-50 justify-between">
+        <div className="flex px-2 border-2 border-t-2 border-gray-950 pt-10 bg-blue-50 justify-between">
           <div className="flex flex-col">
             <div className="flex flex-col justify-between pb-5">
               <div>
@@ -173,7 +173,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col border-2 border-black w-full">
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -182,7 +182,7 @@ export default function Home() {
             </div>
           </Link>
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
           </Link>
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -200,7 +200,7 @@ export default function Home() {
             </div>
           </Link>
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -209,7 +209,7 @@ export default function Home() {
             </div>
           </Link>
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -218,7 +218,7 @@ export default function Home() {
             </div>
           </Link>
           <Link
-            className="last:border-none border-b-2 border-black py-4 hover:bg-orange-400 hover:text-white"
+            className="last:border-none border-b-2 border-black py-4 hover:bg-blue-400 hover:text-white"
             href="#"
           >
             <div className="w-full flex justify-between  p-4 ">
@@ -241,14 +241,14 @@ export default function Home() {
               src="https://www.nicetomeetme.kr/images/main/ritual_town.jpg"
             />
             <Link
-              className="p-4 bg-orange-500 flex w-52 border-2 border-black font-bold  absolute left-1/2 -translate-x-1/2 bottom-3"
+              className="p-4 bg-blue-500 flex w-52 border-2 border-black font-bold  absolute left-1/2 -translate-x-1/2 bottom-3"
               href="#"
             >
               리츄얼 마을 둘러보기 <ChevronRight />
             </Link>
           </div>
           <Link className="last:border-none border-b-2 border-black " href="#">
-            <div className="w-full flex justify-between items-center p-4 bg-orange-100 ">
+            <div className="w-full flex justify-between items-center p-4 bg-blue-100 ">
               <div>
                 <div className="pb-3 text-lg font-bold">
                   별게 다 글쓰기 마을
@@ -261,7 +261,7 @@ export default function Home() {
             </div>
           </Link>
           <Link className="last:border-none border-b-2 border-black " href="#">
-            <div className="w-full flex justify-between items-center p-4 bg-orange-100 ">
+            <div className="w-full flex justify-between items-center p-4 bg-blue-100 ">
               <div>
                 <div className="pb-3 text-lg font-bold">
                   별게 다 글쓰기 마을
@@ -274,7 +274,7 @@ export default function Home() {
             </div>
           </Link>
           <Link className="last:border-none border-b-2 border-black " href="#">
-            <div className="w-full flex justify-between items-center p-4 bg-orange-100 ">
+            <div className="w-full flex justify-between items-center p-4 bg-blue-100 ">
               <div>
                 <div className="pb-3 text-lg font-bold">
                   별게 다 글쓰기 마을
@@ -323,7 +323,7 @@ export default function Home() {
                 src="https://image.nicetomeetme.kr/54892/%E1%84%8B%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%87%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7_%E1%84%80%E1%85%A9%E1%86%AF%E1%84%83%E1%85%B3%E1%86%AB%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%86%BC.png?w=1920&q=75"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -342,7 +342,7 @@ export default function Home() {
                 src="/seodong/6.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -388,7 +388,7 @@ export default function Home() {
                 src="/seodong/7.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -407,7 +407,7 @@ export default function Home() {
                 src="/seodong/8.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -453,7 +453,7 @@ export default function Home() {
                 src="/seodong/9.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -472,7 +472,7 @@ export default function Home() {
                 src="/seodong/10.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -518,7 +518,7 @@ export default function Home() {
                 src="/seodong/11.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="font-bold pb-1">
                 내 시간의 주인이 되는 시긴 관찰 리추얼
               </div>
@@ -543,7 +543,7 @@ export default function Home() {
                 src="/seodong/12.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -564,7 +564,7 @@ export default function Home() {
                 src="/seodong/1.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -585,7 +585,7 @@ export default function Home() {
                 src="/seodong/2.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -614,7 +614,7 @@ export default function Home() {
                 src="/seodong/3.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -635,7 +635,7 @@ export default function Home() {
                 src="/seodong/4.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -656,7 +656,7 @@ export default function Home() {
                 src="/seodong/5.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-100">
+            <div className="p-4 bg-blue-100">
               <div className="text-sm pb-10">
                 리추얼을 통해 내가 모르던 나를 발견하는 즐거움이 있어요.
               </div>
@@ -684,7 +684,7 @@ export default function Home() {
                 src="/seodong/6.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-500">
+            <div className="p-4 bg-blue-500">
               <div className="font-bold pb-1 flex justify-center">
                 <div>내 시간의 주인이 되는 시긴 관찰 리추얼</div>
                 <div>
@@ -702,7 +702,7 @@ export default function Home() {
                 src="/seodong/7.jpg"
               />
             </div>
-            <div className="p-4 bg-orange-500">
+            <div className="p-4 bg-blue-500">
               <div className="font-bold pb-1 flex justify-center">
                 <div>내 시간의 주인이 되는 시긴 관찰 리추얼</div>
                 <div>

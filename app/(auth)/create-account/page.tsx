@@ -84,7 +84,7 @@ export default function CreateAccount() {
               placeholder="인증번호"
               required
             />
-            <div className="bg-orange-500 text-white py-2 rounded-md font-bold text-center hover:cursor-pointer">
+            <div className="bg-blue-500 text-white py-2 rounded-md font-bold text-center hover:cursor-pointer">
               인증하기
             </div>
           </div>
