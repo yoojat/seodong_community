@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
-import {
-  BellIcon,
-  BookmarkIcon,
-  MagnifyingGlassIcon,
-  ShoppingBagIcon,
-} from "@heroicons/react/24/solid";
+// import {
+//   BellIcon,
+//   BookmarkIcon,
+//   MagnifyingGlassIcon,
+//   ShoppingBagIcon,
+// } from "@heroicons/react/24/solid";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
 
