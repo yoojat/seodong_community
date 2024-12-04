@@ -7,13 +7,14 @@ import getSession from "./lib/session";
 interface Routes {
   [key: string]: boolean;
 }
-const publicOnlyUrls: Routes = {
-  "/": true,
-  "/login": true,
-  "/sms": true,
-  "/create-account": true,
-  "/rituals": true,
-};
+// const publicOnlyUrls: Routes = {
+//   "/": true,
+//   "/login": true,
+//   "/sms": true,
+//   "/create-account": true,
+//   "/rituals": true,
+//   "/sedong": true,
+// };
 
 // 이름은 꼭 middleware로 (middlewares는 안됨)
 export async function middleware(request: NextRequest) {
@@ -37,13 +38,13 @@ export async function middleware(request: NextRequest) {
   // https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes
 
   const session = await getSession();
-  const exists = publicOnlyUrls[request.nextUrl.pathname];
+  // const exists = publicOnlyUrls[request.nextUrl.pathname];
   if (!session.id) {
     // 로그인 하지 않았다면
-    if (!exists) {
-      // 접속가능한 url이 없다면
-      return NextResponse.redirect(new URL("/", request.url));
-    }
+    // if (!exists) {
+    //   // 접속가능한 url이 없다면
+    //   return NextResponse.redirect(new URL("/", request.url));
+    // }
   } else {
     // 로그인핸다면
     // if (exists) {
