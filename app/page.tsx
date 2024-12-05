@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pb-10">
-          <Image width={100} height={100} alt="start" src="/seodng/2.jpg" />
+          <Image width={100} height={100} alt="start" src="/seodong/2.jpg" />
         </div>
       </div>
 
