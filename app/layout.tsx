@@ -108,13 +108,15 @@ export default function RootLayout({
               </Link>
               <div className="hidden lg:flex">
                 <div className="flex gap-5 pr-5">
-                  {/* <Link href="#">가이드</Link> */}
+                  <Link href="/guide">가이드</Link>
                   <Link href="/rituals">프로그램</Link>
                   <Link href="/posts">커뮤니티</Link>
                   {/* <Link href="#">마이리츄얼</Link> */}
                 </div>
                 <div className="flex border-l-2 border-black pl-5">
-                  {/* <Link href="#">비지니스 문의</Link> */}
+                  <Link href="https://aminors.notion.site/153b75184f6880fabe43cd6ea2b4945e?pvs=4">
+                    About
+                  </Link>
                 </div>
               </div>
             </div>
